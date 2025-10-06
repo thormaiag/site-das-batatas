@@ -1,0 +1,53 @@
+html {
+    background-image: url('panodefundo.webp');
+    background-size: cover;
+    background-attachment: fixed; /* Faz o fundo ficar parado ao rolar a página */
+    background-position: center;  /* Centraliza melhor a imagem */
+    background-repeat: no-repeat;  /* Não repete a imagem */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ainda é uma boa prática manter o min-height */
+    /* Removemos os estilos de background daqui */
+}
+header /* O estilo do <header> define um fundo azul escuro, texto branco, 10px de espaço interno ao redor do conteúdo e centraliza o texto */ {
+    background-color: rgb(230, 216, 33);  /* Define a cor de fundo do cabeçalho */
+    color: rgb(0, 0, 0);          /* Define a cor do texto como branco */
+    padding: 10px;                      /* Adiciona espaço interno de 10px */
+    text-align: center;                /* Centraliza o conteúdo do cabeçalho */
+}
+section {
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    background-color: rgba(255, 255, 0, 0.8); /* Amarelo com transparência */
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgba(230, 216, 33, 0.9);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+}
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+button {
+    background-color: rgb(0, 0, 0); /* Cor de fundo do botão (preto) */
+    color: aliceblue;               /* Cor do texto dentro do botão (quase branco) */
+    padding: 10px 15px;             /* Espaçamento interno: 10px cima/baixo, 15px esquerda/direita */
+    border: none;                   /* Remove a borda padrão do botão */
+    border-radius: 5px;             /* Deixa os cantos arredondados com raio de 5px */
+    cursor: pointer;                /* Muda o cursor para mãozinha ao passar o mouse */
+}
